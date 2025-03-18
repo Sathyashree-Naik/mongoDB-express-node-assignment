@@ -1,0 +1,31 @@
+{
+  "name": "mongodb-express-node-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "echo \"No build step needed\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sathyashree-Naik/mongoDB-express-node-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sathyashree-Naik/mongoDB-express-node-assignment/issues"
+  },
+  "homepage": "https://github.com/Sathyashree-Naik/mongoDB-express-node-assignment#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0",
+    "winston": "^3.17.0"
+  }
+}
