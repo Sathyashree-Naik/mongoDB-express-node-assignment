@@ -20,7 +20,7 @@ exports.updateUser = async (req, res) => {
   }
 };
 
-exports.getUsers = async (req, res) => {
+exports.getUsers = async (_req, res) => {
   try {
     const users = await User.find();
     res.json(users);
