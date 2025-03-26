@@ -1,2 +1,3 @@
 # mongoDB-express-node-assignment
-![alt text](image.png)
+![alt text](get-api.png)
+![alt text](db.png)
